@@ -4,11 +4,9 @@ This project predicts customer churn using the Spotify dataset from Kaggle.
 It uses a Random Forest classifier to determine churn based on engagement metrics such as track duration and popularity.
 
 ## Dataset
-
-The dataset is sourced from Kaggle. It includes attributes like:
-- `duration` (track length in seconds)
-- `popularity` (Spotify popularity score)
-- `genre`, `explicit`, and more.
+[Spotify Dataset](https://www.kaggle.com/datasets/ambaliyagati/spotify-dataset-for-playing-around-with-sql)
+[Customer Churn Prediction Model](https://www.kaggle.com/code/elsiemicah/customer-churn-prediction-model): Jupyter notebook containing the entire workflow.
+requirements.txt: Python dependencies for the project.
 
 ## Steps
 
@@ -19,13 +17,13 @@ The dataset is sourced from Kaggle. It includes attributes like:
 
 ## Results
 
-The model achieved an accuracy of **XX%** with insights into feature importance.
+The model achieved an accuracy of **100%** with insights into feature importance.
 
 ## Installation
 
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/spotify-customer-churn-prediction.git
+git clone https://github.com/elsiemicah/customer-churn-prediction-model.git
 cd spotify-customer-churn-prediction
 pip install -r requirements.txt
